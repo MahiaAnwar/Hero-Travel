@@ -97,7 +97,40 @@ li{
     text-align: center;
     font-size: 16px;
     padding: 20px;
+    cursor: pointer;
 }
 .input-color{
     color: rgba(19, 19, 24, 0.5);
+}
+/* our popular tour */
+.popular-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    justify-content: space-between;
+}
+.text-content{
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+.text-content p,
+.text-content li{
+    font-size: 16px;line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.text-content h3,
+.text-content p,
+.text-content li{
+    text-align: left;
+}
+.text-content li{
+    margin-left: 50px;
+}
+.image img{
+    width: 100%;
+}
+.btn-bold{
+    font-weight: 800;
 }
