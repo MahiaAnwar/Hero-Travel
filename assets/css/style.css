@@ -32,6 +32,7 @@ p,
 li{
     font-size: 18px;
     cursor: pointer;
+    text-align: center;
 }
 .white{
     color: white;
@@ -133,4 +134,36 @@ li{
 }
 .btn-bold{
     font-weight: 800;
+}
+/* Your Destination */
+.row1,
+.row2,
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+    gap: 1rem;
+}
+.row2{
+    grid-template-columns: 0.9fr 1.5fr 0.6fr;
+}
+.row3{
+    grid-template-columns: 0.6fr 0.9fr;
+}
+.country-card img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(70%);
+}
+.country-card{
+    position: relative;
+}
+.country-card .country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
 }
